@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxeeydynm52kp"]
+
+[ext_resource type="PackedScene" uid="uid://cg6vqht6jsj65" path="res://Scene/gradient_noise.tscn" id="1_f5bdx"]
+
+[node name="Main" type="Node3D"]
+
+[node name="ValueNoise" parent="." instance=ExtResource("1_f5bdx")]
