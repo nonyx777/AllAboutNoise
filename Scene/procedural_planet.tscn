@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://1o6dktjcpns"]
+
+[ext_resource type="Script" path="res://Script/procedural_planet.gd" id="1_vq354"]
+[ext_resource type="Resource" uid="uid://yk1d5rvlox8b" path="res://Resources/planet.tres" id="2_5ss48"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rbxwp"]
+albedo_color = Color(0.244769, 0.418977, 0.472614, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_db6dx"]
+material = SubResource("StandardMaterial3D_rbxwp")
+
+[node name="ProceduralPlanet" type="Node3D" node_paths=PackedStringArray("planet")]
+script = ExtResource("1_vq354")
+property = ExtResource("2_5ss48")
+planet = NodePath("Planet")
+
+[node name="Planet" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_db6dx")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-0.352315, -0.213778, 0.911138, 0, 0.973562, 0.228425, -0.935881, 0.0804774, -0.343, 3.12463, 0.783353, -1.17628)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+shadow_enabled = true
