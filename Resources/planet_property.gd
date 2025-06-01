@@ -1,4 +1,5 @@
-class_name Planet extends Resource
+@tool
+class_name PlanetProperty extends Resource
 @export var radius: float:
 	set(p_radius):
 		radius = p_radius

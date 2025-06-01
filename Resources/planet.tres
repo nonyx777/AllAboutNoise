@@ -1,9 +1,0 @@
-[gd_resource type="Resource" script_class="Planet" load_steps=2 format=3 uid="uid://yk1d5rvlox8b"]
-
-[ext_resource type="Script" path="res://Resources/planet.gd" id="1_m1wbk"]
-
-[resource]
-script = ExtResource("1_m1wbk")
-radius = 0.5
-height = 1.0
-color = Color(0.244769, 0.418977, 0.472614, 1)
