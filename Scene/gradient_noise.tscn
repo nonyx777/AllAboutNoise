@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://cg6vqht6jsj65"]
 
-[ext_resource type="Shader" path="res://ShaderScript/gradient_noise.gdshader" id="1_28kjw"]
+[ext_resource type="Shader" uid="uid://cvrass0b6na4n" path="res://ShaderScript/gradient_noise.gdshader" id="1_28kjw"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_0yrah"]
 render_priority = 0

@@ -12,5 +12,5 @@ config_version=5
 
 config/name="AllAboutNoise"
 run/main_scene="res://Scene/procedural_planet.tscn"
-config/features=PackedStringArray("4.3", "Forward Plus")
+config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
