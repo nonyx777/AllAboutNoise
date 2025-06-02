@@ -29,7 +29,7 @@ class_name PlanetNoise extends Resource
 		minValue = p_minValue
 		changed.emit()
 
-func _init(p_strength = 1.0, p_octaves = 1, p_baseRoughness = 1.0, p_roughness = 2, p_persistance = 0.5, p_center = Vector3.ZERO, p_minValue = 0.0) -> void:
+func _init(p_strength = 1.0, p_octaves = 8, p_baseRoughness = 5.0, p_roughness = 2, p_persistance = 0.5, p_center = Vector3.ZERO, p_minValue = 0.0) -> void:
 	strength = p_strength
 	octaves = p_octaves
 	baseRoughness = p_baseRoughness

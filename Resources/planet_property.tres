@@ -4,5 +4,5 @@
 
 [resource]
 script = ExtResource("1_1xbsr")
-radius = 0.0
-color = Color(0.944968, 0.241861, 0, 1)
+radius = 1.0
+color = Color(0.295257, 0.545717, 0.844643, 1)
