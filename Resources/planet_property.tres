@@ -1,9 +1,8 @@
 [gd_resource type="Resource" script_class="PlanetProperty" load_steps=2 format=3 uid="uid://ji3bctd7w010"]
 
-[ext_resource type="Script" path="res://Resources/planet_property.gd" id="1_1xbsr"]
+[ext_resource type="Script" uid="uid://blqxqlt6gl7bv" path="res://Resources/planet_property.gd" id="1_1xbsr"]
 
 [resource]
 script = ExtResource("1_1xbsr")
-radius = 0.5
-height = 1.0
-color = Color(0.313474, 0.581892, 0.65291, 1)
+radius = 0.0
+color = Color(0.944968, 0.241861, 0, 1)

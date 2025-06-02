@@ -1,23 +1,13 @@
-[gd_scene load_steps=6 format=3 uid="uid://1o6dktjcpns"]
+[gd_scene load_steps=4 format=3 uid="uid://1o6dktjcpns"]
 
-[ext_resource type="Script" path="res://Script/procedural_planet.gd" id="1_vq354"]
+[ext_resource type="Script" uid="uid://bjtj6msbhao11" path="res://Script/procedural_planet.gd" id="1_vq354"]
 [ext_resource type="Resource" uid="uid://ji3bctd7w010" path="res://Resources/planet_property.tres" id="2_guau4"]
 [ext_resource type="Resource" uid="uid://ba25kvw4ph8as" path="res://Resources/planet_noise.tres" id="3_l35oc"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mb6br"]
-albedo_color = Color(0.313474, 0.581892, 0.65291, 1)
-
-[sub_resource type="SphereMesh" id="SphereMesh_iu6y5"]
-material = SubResource("StandardMaterial3D_mb6br")
-
-[node name="ProceduralPlanet" type="Node3D" node_paths=PackedStringArray("planet")]
+[node name="ProceduralPlanet" type="Node3D"]
 script = ExtResource("1_vq354")
 property = ExtResource("2_guau4")
 planetNoise = ExtResource("3_l35oc")
-planet = NodePath("Planet")
-
-[node name="Planet" type="MeshInstance3D" parent="."]
-mesh = SubResource("SphereMesh_iu6y5")
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(-0.352315, -0.213778, 0.911138, 0, 0.973562, 0.228425, -0.935881, 0.0804774, -0.343, 3.12463, 0.783353, -1.17628)
