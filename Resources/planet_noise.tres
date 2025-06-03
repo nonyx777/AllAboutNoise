@@ -6,8 +6,8 @@
 script = ExtResource("1_py1cc")
 strength = 1.0
 octaves = 8
-baseRoughness = 5.0
+baseRoughness = 1.0
 roughness = 2.0
 persistance = 0.5
 center = Vector3(0, 0, 0)
-minValue = 0.0
+minValue = 0.55

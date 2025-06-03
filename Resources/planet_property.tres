@@ -5,4 +5,6 @@
 [resource]
 script = ExtResource("1_1xbsr")
 radius = 1.0
-color = Color(0.295257, 0.545717, 0.844643, 1)
+radial_segments = 256
+rings = 224
+color = Color(0.196386, 0.672438, 0.794255, 1)

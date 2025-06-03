@@ -9,9 +9,9 @@ script = ExtResource("1_vq354")
 property = ExtResource("2_guau4")
 planetNoise = ExtResource("3_l35oc")
 
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0.358768, -0.189886, 0.913909, -0.348266, 0.881158, 0.319798, 0, 0, 0)
+shadow_enabled = true
+
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(-0.352315, -0.213778, 0.911138, 0, 0.973562, 0.228425, -0.935881, 0.0804774, -0.343, 3.12463, 0.783353, -1.17628)
-
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
-shadow_enabled = true
